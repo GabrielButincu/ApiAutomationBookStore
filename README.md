@@ -368,6 +368,11 @@ The project includes a complete CI/CD pipeline (`.github/workflows/api-tests.yml
 2. Click "Run workflow"
 3. Select branch and run
 
+**Live Allure Reports:**
+
+Latest test reports are automatically published to GitHub Pages:
+https://gabrielbutincu.github.io/ApiAutomationBookStore/
+
 ## Test Coverage
 
 ### Authors API - Complete Coverage
