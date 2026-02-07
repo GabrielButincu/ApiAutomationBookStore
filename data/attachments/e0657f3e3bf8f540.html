@@ -1,0 +1,32 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;Beneath the Bleeding&quot;,
+    &quot;description&quot;: &quot;Fugiat sit et. Amet molestiae corrupti ut voluptatem. Voluptate porro tenetur molestiae esse omnis aliquam aut. Voluptate quod ea ratione et delectus. Ut numquam quam rerum necessitatibus.&quot;,
+    &quot;pageCount&quot;: 427,
+    &quot;excerpt&quot;: &quot;Eveniet repellendus repudiandae neque id.&quot;,
+    &quot;publishDate&quot;: &quot;2018-03-07T04:05:56.590985141&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;Beneath the Bleeding&quot;,
+    &quot;description&quot;: &quot;Fugiat sit et. Amet molestiae corrupti ut voluptatem. Voluptate porro tenetur molestiae esse omnis aliquam aut. Voluptate quod ea ratione et delectus. Ut numquam quam rerum necessitatibus.&quot;,
+    &quot;pageCount&quot;: 427,
+    &quot;excerpt&quot;: &quot;Eveniet repellendus repudiandae neque id.&quot;,
+    &quot;publishDate&quot;: &quot;2018-03-07T04:05:56.590985141&quot;
+}&#39;
+</div>
