@@ -1,0 +1,34 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: 8844,
+    &quot;title&quot;: &quot;All Passion Spent&quot;,
+    &quot;description&quot;: &quot;Delectus voluptatem non voluptatum voluptatem. Qui sed earum. Et rerum laudantium sit et harum molestiae numquam. Blanditiis itaque ducimus ea nisi.&quot;,
+    &quot;pageCount&quot;: 744,
+    &quot;excerpt&quot;: &quot;Porro tempora sequi molestiae perspiciatis velit.&quot;,
+    &quot;publishDate&quot;: &quot;2016-09-15T04:18:05.896139333&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 8844,
+    &quot;title&quot;: &quot;All Passion Spent&quot;,
+    &quot;description&quot;: &quot;Delectus voluptatem non voluptatum voluptatem. Qui sed earum. Et rerum laudantium sit et harum molestiae numquam. Blanditiis itaque ducimus ea nisi.&quot;,
+    &quot;pageCount&quot;: 744,
+    &quot;excerpt&quot;: &quot;Porro tempora sequi molestiae perspiciatis velit.&quot;,
+    &quot;publishDate&quot;: &quot;2016-09-15T04:18:05.896139333&quot;
+}&#39;
+</div>
