@@ -1,0 +1,32 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;The Road Less Traveled&quot;,
+    &quot;description&quot;: &quot;Voluptatum dolorum enim quia minus. Officia quasi illo. Aut optio eius.&quot;,
+    &quot;pageCount&quot;: 433,
+    &quot;excerpt&quot;: &quot;In adipisci non animi eius dolore consequatur voluptatem.&quot;,
+    &quot;publishDate&quot;: &quot;2018-06-20T04:43:36.75904558&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;The Road Less Traveled&quot;,
+    &quot;description&quot;: &quot;Voluptatum dolorum enim quia minus. Officia quasi illo. Aut optio eius.&quot;,
+    &quot;pageCount&quot;: 433,
+    &quot;excerpt&quot;: &quot;In adipisci non animi eius dolore consequatur voluptatem.&quot;,
+    &quot;publishDate&quot;: &quot;2018-06-20T04:43:36.75904558&quot;
+}&#39;
+</div>
