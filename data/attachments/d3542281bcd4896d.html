@@ -1,0 +1,34 @@
+<div>PUT to https://fakerestapi.azurewebsites.net/api/v1/Books/1</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: 1,
+    &quot;title&quot;: &quot;O Jerusalem!&quot;,
+    &quot;description&quot;: &quot;Laborum eligendi libero ea. Consequatur placeat repudiandae officiis voluptas harum earum. Ex ut quas et occaecati aliquam quibusdam voluptatem. Qui dolore qui deserunt.&quot;,
+    &quot;pageCount&quot;: 799,
+    &quot;excerpt&quot;: &quot;Delectus consectetur perspiciatis aut.&quot;,
+    &quot;publishDate&quot;: &quot;2022-06-13T05:31:42.160466458&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PUT &#39;https://fakerestapi.azurewebsites.net/api/v1/Books/1&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 1,
+    &quot;title&quot;: &quot;O Jerusalem!&quot;,
+    &quot;description&quot;: &quot;Laborum eligendi libero ea. Consequatur placeat repudiandae officiis voluptas harum earum. Ex ut quas et occaecati aliquam quibusdam voluptatem. Qui dolore qui deserunt.&quot;,
+    &quot;pageCount&quot;: 799,
+    &quot;excerpt&quot;: &quot;Delectus consectetur perspiciatis aut.&quot;,
+    &quot;publishDate&quot;: &quot;2022-06-13T05:31:42.160466458&quot;
+}&#39;
+</div>
