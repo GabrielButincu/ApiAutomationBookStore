@@ -1,0 +1,32 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;Wildfire at Midnight&quot;,
+    &quot;description&quot;: &quot;Eum fugit quasi modi labore nobis culpa laboriosam. Tempora atque provident nihil dignissimos pariatur vero ut. Provident sint et laborum.&quot;,
+    &quot;pageCount&quot;: 165,
+    &quot;excerpt&quot;: &quot;Ut animi excepturi.&quot;,
+    &quot;publishDate&quot;: &quot;2017-02-26T06:00:52.047609947&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;Wildfire at Midnight&quot;,
+    &quot;description&quot;: &quot;Eum fugit quasi modi labore nobis culpa laboriosam. Tempora atque provident nihil dignissimos pariatur vero ut. Provident sint et laborum.&quot;,
+    &quot;pageCount&quot;: 165,
+    &quot;excerpt&quot;: &quot;Ut animi excepturi.&quot;,
+    &quot;publishDate&quot;: &quot;2017-02-26T06:00:52.047609947&quot;
+}&#39;
+</div>

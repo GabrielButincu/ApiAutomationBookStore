@@ -1,0 +1,34 @@
+<div>PUT to https://fakerestapi.azurewebsites.net/api/v1/Books/99999</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: 99999,
+    &quot;title&quot;: &quot;The World, the Flesh and the Devil&quot;,
+    &quot;description&quot;: &quot;Molestiae ullam beatae quia corrupti illum ipsa. Saepe consequatur animi delectus ut. Laborum quis blanditiis provident et quos cupiditate nostrum.&quot;,
+    &quot;pageCount&quot;: 648,
+    &quot;excerpt&quot;: &quot;Sed provident a corrupti assumenda.&quot;,
+    &quot;publishDate&quot;: &quot;2020-07-20T06:00:55.56124975&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PUT &#39;https://fakerestapi.azurewebsites.net/api/v1/Books/99999&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 99999,
+    &quot;title&quot;: &quot;The World, the Flesh and the Devil&quot;,
+    &quot;description&quot;: &quot;Molestiae ullam beatae quia corrupti illum ipsa. Saepe consequatur animi delectus ut. Laborum quis blanditiis provident et quos cupiditate nostrum.&quot;,
+    &quot;pageCount&quot;: 648,
+    &quot;excerpt&quot;: &quot;Sed provident a corrupti assumenda.&quot;,
+    &quot;publishDate&quot;: &quot;2020-07-20T06:00:55.56124975&quot;
+}&#39;
+</div>
