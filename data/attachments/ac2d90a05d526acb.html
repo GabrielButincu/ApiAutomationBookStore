@@ -1,0 +1,34 @@
+<div>PUT to https://fakerestapi.azurewebsites.net/api/v1/Books/99999</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: 99999,
+    &quot;title&quot;: &quot;The Last Temptation&quot;,
+    &quot;description&quot;: &quot;Accusantium fugiat quia. In dolorem dolor. Aut culpa consequatur cupiditate praesentium earum. Dolorum impedit in eum. Error eligendi optio omnis.&quot;,
+    &quot;pageCount&quot;: 422,
+    &quot;excerpt&quot;: &quot;Sed ut culpa fuga dolorum itaque doloremque.&quot;,
+    &quot;publishDate&quot;: &quot;2025-07-31T05:18:46.735600729&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PUT &#39;https://fakerestapi.azurewebsites.net/api/v1/Books/99999&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 99999,
+    &quot;title&quot;: &quot;The Last Temptation&quot;,
+    &quot;description&quot;: &quot;Accusantium fugiat quia. In dolorem dolor. Aut culpa consequatur cupiditate praesentium earum. Dolorum impedit in eum. Error eligendi optio omnis.&quot;,
+    &quot;pageCount&quot;: 422,
+    &quot;excerpt&quot;: &quot;Sed ut culpa fuga dolorum itaque doloremque.&quot;,
+    &quot;publishDate&quot;: &quot;2025-07-31T05:18:46.735600729&quot;
+}&#39;
+</div>
