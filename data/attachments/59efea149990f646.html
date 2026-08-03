@@ -1,0 +1,34 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: 2075,
+    &quot;title&quot;: &quot;The Heart Is a Lonely Hunter&quot;,
+    &quot;description&quot;: &quot;Blanditiis autem consequuntur est. Aliquam nam illo. Pariatur ducimus quam. Consequatur est qui.&quot;,
+    &quot;pageCount&quot;: 569,
+    &quot;excerpt&quot;: &quot;Animi perspiciatis consequatur suscipit eos qui dicta dolores.&quot;,
+    &quot;publishDate&quot;: &quot;2017-01-13T05:38:08.03427759&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 2075,
+    &quot;title&quot;: &quot;The Heart Is a Lonely Hunter&quot;,
+    &quot;description&quot;: &quot;Blanditiis autem consequuntur est. Aliquam nam illo. Pariatur ducimus quam. Consequatur est qui.&quot;,
+    &quot;pageCount&quot;: 569,
+    &quot;excerpt&quot;: &quot;Animi perspiciatis consequatur suscipit eos qui dicta dolores.&quot;,
+    &quot;publishDate&quot;: &quot;2017-01-13T05:38:08.03427759&quot;
+}&#39;
+</div>
