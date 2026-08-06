@@ -1,0 +1,32 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;I Sing the Body Electric&quot;,
+    &quot;description&quot;: &quot;Necessitatibus similique consequatur quidem. Et dolorem ipsam quod ratione. Eaque quia animi et fugiat ducimus itaque. Ut consequatur hic eveniet. Veniam quia sed et vel.&quot;,
+    &quot;pageCount&quot;: 896,
+    &quot;excerpt&quot;: &quot;Temporibus quasi esse harum accusantium.&quot;,
+    &quot;publishDate&quot;: &quot;2017-07-11T05:13:18.072978866&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;I Sing the Body Electric&quot;,
+    &quot;description&quot;: &quot;Necessitatibus similique consequatur quidem. Et dolorem ipsam quod ratione. Eaque quia animi et fugiat ducimus itaque. Ut consequatur hic eveniet. Veniam quia sed et vel.&quot;,
+    &quot;pageCount&quot;: 896,
+    &quot;excerpt&quot;: &quot;Temporibus quasi esse harum accusantium.&quot;,
+    &quot;publishDate&quot;: &quot;2017-07-11T05:13:18.072978866&quot;
+}&#39;
+</div>
