@@ -1,0 +1,32 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;By Grand Central Station I Sat Down and Wept&quot;,
+    &quot;description&quot;: &quot;Aut hic rem nam distinctio est saepe aspernatur. Et rem hic ipsum. Commodi rem voluptas asperiores omnis velit officia nobis. Eius fuga quaerat. Corporis voluptatem et velit magnam.&quot;,
+    &quot;pageCount&quot;: 430,
+    &quot;excerpt&quot;: &quot;Et aut rem incidunt.&quot;,
+    &quot;publishDate&quot;: &quot;2020-07-28T02:47:38.038864834&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;By Grand Central Station I Sat Down and Wept&quot;,
+    &quot;description&quot;: &quot;Aut hic rem nam distinctio est saepe aspernatur. Et rem hic ipsum. Commodi rem voluptas asperiores omnis velit officia nobis. Eius fuga quaerat. Corporis voluptatem et velit magnam.&quot;,
+    &quot;pageCount&quot;: 430,
+    &quot;excerpt&quot;: &quot;Et aut rem incidunt.&quot;,
+    &quot;publishDate&quot;: &quot;2020-07-28T02:47:38.038864834&quot;
+}&#39;
+</div>
