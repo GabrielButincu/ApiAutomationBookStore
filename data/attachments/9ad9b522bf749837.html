@@ -1,0 +1,32 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;Fear and Trembling&quot;,
+    &quot;description&quot;: &quot;Ducimus dolorem quae. Numquam quaerat harum quia labore fugiat assumenda. Quod minus adipisci nulla laboriosam consequatur. Sunt distinctio impedit sapiente officia et. Dolor dignissimos sequi alias explicabo.&quot;,
+    &quot;pageCount&quot;: 305,
+    &quot;excerpt&quot;: &quot;Fugiat et beatae.&quot;,
+    &quot;publishDate&quot;: &quot;2023-05-07T07:30:24.660671557&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;Fear and Trembling&quot;,
+    &quot;description&quot;: &quot;Ducimus dolorem quae. Numquam quaerat harum quia labore fugiat assumenda. Quod minus adipisci nulla laboriosam consequatur. Sunt distinctio impedit sapiente officia et. Dolor dignissimos sequi alias explicabo.&quot;,
+    &quot;pageCount&quot;: 305,
+    &quot;excerpt&quot;: &quot;Fugiat et beatae.&quot;,
+    &quot;publishDate&quot;: &quot;2023-05-07T07:30:24.660671557&quot;
+}&#39;
+</div>
