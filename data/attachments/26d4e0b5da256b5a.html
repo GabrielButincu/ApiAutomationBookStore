@@ -1,0 +1,34 @@
+<div>POST to https://fakerestapi.azurewebsites.net/api/v1/Books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: 9276,
+    &quot;title&quot;: &quot;Those Barren Leaves, Thrones, Dominations&quot;,
+    &quot;description&quot;: &quot;Itaque omnis qui. Eum deleniti tempora est. Animi voluptatem ex doloremque quis est molestiae eum. Commodi voluptatem omnis necessitatibus veritatis. Nisi iure molestias.&quot;,
+    &quot;pageCount&quot;: 512,
+    &quot;excerpt&quot;: &quot;Neque rem perferendis.&quot;,
+    &quot;publishDate&quot;: &quot;2018-03-26T10:23:02.014606196&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 9276,
+    &quot;title&quot;: &quot;Those Barren Leaves, Thrones, Dominations&quot;,
+    &quot;description&quot;: &quot;Itaque omnis qui. Eum deleniti tempora est. Animi voluptatem ex doloremque quis est molestiae eum. Commodi voluptatem omnis necessitatibus veritatis. Nisi iure molestias.&quot;,
+    &quot;pageCount&quot;: 512,
+    &quot;excerpt&quot;: &quot;Neque rem perferendis.&quot;,
+    &quot;publishDate&quot;: &quot;2018-03-26T10:23:02.014606196&quot;
+}&#39;
+</div>
